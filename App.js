@@ -76,6 +76,7 @@ function DetailsScreen(navigation ) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>{navigation.route.params.Data.firstName}</Text>
+      <Text>{navigation.route.params.Data.lastName}</Text>
     </View>
   );
 }
